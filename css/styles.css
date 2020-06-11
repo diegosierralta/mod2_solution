@@ -1,12 +1,16 @@
 /* Module 2 Assignment CSS styles!*/
 
 
-/* Establish Universals */
+/* Establish Universals, reset margins */
 * {
 	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
 }
 body {
 	font-family:sans-serif;
+	/* 15px sides to even menuitem spacing */
+	margin: 15px;
 }
 h1 {
 	font-size: 1.75em;
@@ -22,10 +26,12 @@ p {
 	width:100%;
 }
 .container {
-	/* keeps the menuitems spaced evenly apart vertically*/
-	margin: 0px 0px -30px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 15px 15px 15px 15px;
+
 }
 .sectiontitle {
+	position: relative;
 	font-size: 1.25em;
 	text-align: right;
 	float:right;
@@ -59,8 +65,6 @@ p {
 	.col-lg-4 {
 		float:left;
 		width: 33.33%;
-		border: 1px none blue;
-		padding: 15px;
 	}
 }
 
@@ -68,8 +72,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6, .col-md-12 {
 		float:left;
-		border: 1px none blue;
-		padding: 15px;
 	}
 	.col-md-6{
  	   width: 50%;
@@ -83,7 +85,5 @@ p {
 @media (max-width: 767px) {
 	.col-sm-12 {
 		float:left;
-		border: 1px none blue;
-		padding: 15px;
 	}
 }
