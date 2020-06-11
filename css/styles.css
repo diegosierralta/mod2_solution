@@ -1,0 +1,89 @@
+/* Module 2 Assignment CSS styles!*/
+
+
+/* Establish Universals */
+* {
+	box-sizing:border-box;
+}
+body {
+	font-family:sans-serif;
+}
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+	margin-bottom:15px;
+	margin-top:30px;
+}
+p {
+/* styles for menuitems under the class .menuitem*/
+}
+
+.row {
+	width:100%;
+}
+.container {
+	/* keeps the menuitems spaced evenly apart vertically*/
+	margin: 0px 0px -30px 0px;
+}
+.sectiontitle {
+	font-size: 1.25em;
+	text-align: right;
+	float:right;
+	border: 1px solid black;
+	width: 125px;
+	padding: 3px 20px 3px 3px;
+	clear: left;
+}
+.menuitem {
+	background-color:lightgray;
+	border: 1px solid black;
+	width: 100%;
+	margin-right: auto;
+  	margin-left: auto;
+	padding:45px 15px 15px 15px;
+}
+#section_chicken {
+	background-color: #e69e9a;
+}
+#section_beef {
+	background-color: #ba362f;
+	color: white;
+}
+#section_sushi {
+	background-color: #f0e4b4;
+}
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float:left;
+		width: 33.33%;
+		border: 1px none blue;
+		padding: 15px;
+	}
+}
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+		float:left;
+		border: 1px none blue;
+		padding: 15px;
+	}
+	.col-md-6{
+ 	   width: 50%;
+	}
+	.col-md-12{
+		width:100%;
+	}
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float:left;
+		border: 1px none blue;
+		padding: 15px;
+	}
+}
