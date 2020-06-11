@@ -8,7 +8,7 @@
 	padding: 0;
 }
 body {
-	font-family:sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	/* 15px sides to even menuitem spacing */
 	margin: 15px;
 }
@@ -34,7 +34,7 @@ p {
 	position: relative;
 	font-size: 1.25em;
 	text-align: right;
-	float:right;
+	float: right;
 	border: 1px solid black;
 	width: 125px;
 	padding: 3px 20px 3px 3px;
